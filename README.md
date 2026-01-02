@@ -43,7 +43,7 @@ POST /api/service-bookings
 
 ## 📸 Screenshots
 ### Add Bike
-![Get Bike](Screenshots/getBike.png)
+![Get Bike](../backend/Screenshots/getBike.png)
 
 ### Bike List
 ![Post List](Screenshots/postBike.png)
