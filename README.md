@@ -42,18 +42,17 @@ GET /api/service-bookings
 POST /api/service-bookings
 
 📸 Screenshots
-Add screenshots of API testing with Postman here
 ### Add Bike
-![Get Bike]("C:\Users\vinut\Downloads\bike-service-backend\backend\Screenshots\getBike.png")
+![Get Bike](Screenshots\getBike.png)
 
 ### Bike List
-![Post List]("C:\Users\vinut\Downloads\bike-service-backend\backend\Screenshots\postBike.png")
+![Post List](Screenshots\postBike.png)
 
 ### Delete Bike
-![Delete Bike]("C:\Users\vinut\Downloads\bike-service-backend\backend\Screenshots\deleteBike.png")
+![Delete Bike](Screenshots\deleteBike.png)
 
 ### Serice-Bookings
-![Post Servie-Booking]("C:\Users\vinut\Downloads\bike-service-backend\backend\Screenshots\postService.png")
+![Post Servie-Booking](Screenshots\postService.png)
 
 🔗 Related Repos
 Frontend: bike-service-frontend
