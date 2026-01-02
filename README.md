@@ -41,7 +41,7 @@ DELETE /api/bikes/{id}
 GET /api/service-bookings
 POST /api/service-bookings
 
-📸 Screenshots
+## 📸 Screenshots
 ### Add Bike
 ![Get Bike](Screenshots/getBike.png)
 
@@ -52,7 +52,7 @@ POST /api/service-bookings
 ![Delete Bike](Screenshots/deleteBike.png)
 
 ### Serice-Bookings
-![Post Servie-Booking](Screenshots/postService.png)
+![Post Service Booking](Screenshots/postService.png)
 
 🔗 Related Repos
 Frontend: bike-service-frontend
