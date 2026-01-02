@@ -43,16 +43,17 @@ POST /api/service-bookings
 
 
 ## 📸 Screenshots
+
 ### Add Bike
 ![Get Bike](Screenshots/getBike.png)
 
 ### Bike List
-![Post List](Screenshots/postBike.png)
+![Post Bike](Screenshots/postBike.png)
 
 ### Delete Bike
 ![Delete Bike](Screenshots/deleteBike.png)
 
-### Serice-Bookings
+### Service Bookings
 ![Post Service Booking](Screenshots/postService.png)
 
 🔗 Related Repos
