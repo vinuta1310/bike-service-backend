@@ -41,9 +41,10 @@ DELETE /api/bikes/{id}
 GET /api/service-bookings
 POST /api/service-bookings
 
+
 ## 📸 Screenshots
 ### Add Bike
-![Get Bike](../backend/Screenshots/getBike.png)
+![Get Bike](Screenshots/getBike.png)
 
 ### Bike List
 ![Post List](Screenshots/postBike.png)
