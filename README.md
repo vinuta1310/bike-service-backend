@@ -1,67 +1,74 @@
-# Bike Service Management - Backend
+# 🚲 Bike Service Management – Backend
 
-This is the **backend** for the Bike Service Management application, built using **Spring Boot**, **Java**, and **MySQL**.  
-It provides REST APIs for managing bikes and service bookings.
-
----
-
-## 🛠 Technologies Used
-- Java, Spring Boot, Maven
-- Spring Data JPA
-- MySQL Database
+A Spring Boot backend application for managing bikes and service bookings.  
+It provides REST APIs for bike CRUD operations and service booking management.
 
 ---
 
 ## ⚡ Features
-1. Add, update, and delete bikes
-2. View all bikes
-3. Add and view service bookings
-4. RESTful APIs for frontend consumption
-5. Connected to MySQL database
+
+- Add, view, update, and delete bikes
+- Create and view service bookings
+- RESTful APIs using Spring Boot
+- MySQL database integration
+- Clean layered architecture (Controller, Repository)
+
+---
+
+## 🛠️ Tech Stack
+
+- Java
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Maven
+- Postman
 
 ---
 
 ## 🚀 How to Run
 
-1. Open terminal in the backend folder:
+### 1️⃣ Open terminal in the backend folder
 
 ```bash
-cd bike-service-backend
+cd bike-service-backend/backend
+```
 
+### 2️⃣ Ensure MySQL is running
 
-2. Make sure MySQL is running and credentials in application.properties are correct.
+Update credentials in `application.properties`:
 
-Build and run the project:
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/bike_service
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+```
+
+### 3️⃣ Build and run the application
+```bash
 mvn clean install
 mvn spring-boot:run
+```
+### 4️⃣ Backend runs on
+http://localhost:8080
 
-Backend runs on: http://localhost:8080
-API endpoints example:
+## 📡 API Endpoints
+### 🚲 Bike APIs
 GET /api/bikes
 POST /api/bikes
 PUT /api/bikes/{id}
 DELETE /api/bikes/{id}
+
+### 🛠️ Service Booking APIs
 GET /api/service-bookings
 POST /api/service-bookings
 
 ## 📸 Screenshots
-
 ### Add Bike
-![Get Bike](Screenshots/getBike.png)
-
-### Bike List
-![Post Bike](Screenshots/postBike.png)
-
+![post Bike](Screenshots/postBike.png)
+#### Bike List
+![get Bike](Screenshots/getBike.png)
 ### Delete Bike
-![Delete Bike](Screenshots/deleteBike.png)
-
-### Service Bookings
-![Post Service Booking](Screenshots/postService.png)
-
-🔗 Related Repos
-Frontend: bike-service-frontend
-
-🛠 Challenges & Learnings
-Connected Spring Boot with MySQL
-Implemented CRUD operations and service booking relations
-Solved CORS issues for React frontend integration
+![delete Bike](Screenshots/deleteBike.png)
+### Service Booking
+![get Serive Booking](Screenshots/postService.png)
