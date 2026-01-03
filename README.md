@@ -28,10 +28,13 @@ It provides REST APIs for managing bikes and service bookings.
 ```bash
 cd bike-service-backend
 
+
 2. Make sure MySQL is running and credentials in application.properties are correct.
+
 Build and run the project:
 mvn clean install
 mvn spring-boot:run
+
 Backend runs on: http://localhost:8080
 API endpoints example:
 GET /api/bikes
@@ -40,7 +43,6 @@ PUT /api/bikes/{id}
 DELETE /api/bikes/{id}
 GET /api/service-bookings
 POST /api/service-bookings
-
 
 ## 📸 Screenshots
 
